@@ -29,7 +29,7 @@ class MailJob implements ShouldQueue
      */
     public function handle(): void
     {
-        Mail::to(env('ADMIN_EMAIL', 'yasmeenkhairy41@gmail.com'))
+        Mail::to(env('ADMIN_EMAIL', 'your_gmail_address@gmail.com'))
             ->send(new UserApplicationAssigned($this->user, $this->course, $this->application));
     }
 }
