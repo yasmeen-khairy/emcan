@@ -18,10 +18,11 @@ To get started with this project, follow these steps:
    php artisan db:seed
 4. php artisan serve
 5. Start the Queue Worker
+   ```bash
     php artisan queue:work
- '' change 'MAIL_USERNAME' and 'ADMIN_EMAIL' in .env to your gmail account to receive applications .
- '' change 'MAIL_PASSWORD' to your gmail password or generate app password from google account .
- '' change 'your_gmail_address@gmail.com' to DEFAULT GMAIL ACCOUNT 
+ - change 'MAIL_USERNAME' and 'ADMIN_EMAIL' in .env to your gmail account to receive applications .
+ - change 'MAIL_PASSWORD' to your gmail password or generate app password from google account .
+ - change 'your_gmail_address@gmail.com' to DEFAULT GMAIL ACCOUNT 
 
  # Project skills 
 - **PHP**: Server-side scripting language used to build the application.
