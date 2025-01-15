@@ -10,13 +10,19 @@
 
 To get started with this project, follow these steps:
 1. composer install
+
 2. set up your .env 
+
 3. Run Migrations
    Migrate the database to set up the necessary tables:
    ```bash
    php artisan migrate
    php artisan db:seed
-4. php artisan serve
+
+4. run project 
+   ```bash 
+   php artisan serve
+
 5. Start the Queue Worker
    ```bash
     php artisan queue:work
