@@ -37,3 +37,6 @@ To get started with this project, follow these steps:
 - **Queues**: Background job processing for tasks like sending emails asynchronously.
 - **Jobs**: Laravel's job system used for handling time-consuming tasks .
 .....
+## Demo Video
+https://github.com/user-attachments/assets/e6afd745-f483-4c74-8972-a94d841483db
+
